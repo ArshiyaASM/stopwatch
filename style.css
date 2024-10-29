@@ -1,0 +1,43 @@
+* {
+    padding: unset;
+    box-sizing: border-box;
+    margin: unset;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    width: 400px;
+}
+.container .timer{
+    padding: 10px;
+    font-size: 50px;
+}
+
+.container .btn {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+
+
+.container .btn button{
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+#m_s {
+    display: none;
+}
+
+
+#for_m_s {
+    display: none;
+}
